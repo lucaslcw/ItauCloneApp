@@ -11,6 +11,16 @@
 		A01F555E2AA7D198003CCB6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01F555D2AA7D198003CCB6D /* ContentView.swift */; };
 		A01F55602AA7D199003CCB6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A01F555F2AA7D199003CCB6D /* Assets.xcassets */; };
 		A01F55632AA7D199003CCB6D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A01F55622AA7D199003CCB6D /* Preview Assets.xcassets */; };
+		A04BCE462AA84B9900D2CE2C /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04BCE452AA84B9900D2CE2C /* Header.swift */; };
+		A04BCE482AA84C7700D2CE2C /* Balance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04BCE472AA84C7700D2CE2C /* Balance.swift */; };
+		A04BCE4B2AA84DDD00D2CE2C /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04BCE4A2AA84DDD00D2CE2C /* CurrencyFormatter.swift */; };
+		A04BCE4E2AA8500200D2CE2C /* SkeletonUI in Frameworks */ = {isa = PBXBuildFile; productRef = A04BCE4D2AA8500200D2CE2C /* SkeletonUI */; };
+		A04BCE522AA85DB700D2CE2C /* ShortcutButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04BCE512AA85DB700D2CE2C /* ShortcutButton.swift */; };
+		A04BCE542AA86C8B00D2CE2C /* CreditCardDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04BCE532AA86C8B00D2CE2C /* CreditCardDetail.swift */; };
+		A04BCE562AA879FE00D2CE2C /* CardDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04BCE552AA879FE00D2CE2C /* CardDetail.swift */; };
+		A04BCE5A2AA890FB00D2CE2C /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04BCE592AA890FB00D2CE2C /* Card.swift */; };
+		A04BCE5C2AAA7F5300D2CE2C /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04BCE5B2AAA7F5300D2CE2C /* CustomTabBar.swift */; };
+		A04BCE5E2AAA8CC300D2CE2C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04BCE5D2AAA8CC300D2CE2C /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,15 @@
 		A01F555D2AA7D198003CCB6D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A01F555F2AA7D199003CCB6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A01F55622AA7D199003CCB6D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A04BCE452AA84B9900D2CE2C /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		A04BCE472AA84C7700D2CE2C /* Balance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Balance.swift; sourceTree = "<group>"; };
+		A04BCE4A2AA84DDD00D2CE2C /* CurrencyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
+		A04BCE512AA85DB700D2CE2C /* ShortcutButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutButton.swift; sourceTree = "<group>"; };
+		A04BCE532AA86C8B00D2CE2C /* CreditCardDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardDetail.swift; sourceTree = "<group>"; };
+		A04BCE552AA879FE00D2CE2C /* CardDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetail.swift; sourceTree = "<group>"; };
+		A04BCE592AA890FB00D2CE2C /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		A04BCE5B2AAA7F5300D2CE2C /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		A04BCE5D2AAA8CC300D2CE2C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A04BCE4E2AA8500200D2CE2C /* SkeletonUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +71,12 @@
 		A01F555A2AA7D198003CCB6D /* itau-clone */ = {
 			isa = PBXGroup;
 			children = (
-				A01F555B2AA7D198003CCB6D /* itau_cloneApp.swift */,
+				A04BCE492AA84DC300D2CE2C /* Helpers */,
+				A04BCE572AA8870B00D2CE2C /* Views */,
+				A04BCE442AA84B8500D2CE2C /* Components */,
+				A04BCE582AA890EB00D2CE2C /* Models */,
 				A01F555D2AA7D198003CCB6D /* ContentView.swift */,
+				A01F555B2AA7D198003CCB6D /* itau_cloneApp.swift */,
 				A01F555F2AA7D199003CCB6D /* Assets.xcassets */,
 				A01F55612AA7D199003CCB6D /* Preview Content */,
 			);
@@ -65,6 +89,43 @@
 				A01F55622AA7D199003CCB6D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A04BCE442AA84B8500D2CE2C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A04BCE452AA84B9900D2CE2C /* Header.swift */,
+				A04BCE472AA84C7700D2CE2C /* Balance.swift */,
+				A04BCE512AA85DB700D2CE2C /* ShortcutButton.swift */,
+				A04BCE532AA86C8B00D2CE2C /* CreditCardDetail.swift */,
+				A04BCE552AA879FE00D2CE2C /* CardDetail.swift */,
+				A04BCE5B2AAA7F5300D2CE2C /* CustomTabBar.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A04BCE492AA84DC300D2CE2C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A04BCE4A2AA84DDD00D2CE2C /* CurrencyFormatter.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A04BCE572AA8870B00D2CE2C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A04BCE5D2AAA8CC300D2CE2C /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A04BCE582AA890EB00D2CE2C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A04BCE592AA890FB00D2CE2C /* Card.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +144,9 @@
 			dependencies = (
 			);
 			name = "itau-clone";
+			packageProductDependencies = (
+				A04BCE4D2AA8500200D2CE2C /* SkeletonUI */,
+			);
 			productName = "itau-clone";
 			productReference = A01F55582AA7D198003CCB6D /* itau-clone.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +175,9 @@
 				Base,
 			);
 			mainGroup = A01F554F2AA7D197003CCB6D;
+			packageReferences = (
+				A04BCE4C2AA8500200D2CE2C /* XCRemoteSwiftPackageReference "SkeletonUI" */,
+			);
 			productRefGroup = A01F55592AA7D198003CCB6D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +204,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A04BCE562AA879FE00D2CE2C /* CardDetail.swift in Sources */,
+				A04BCE5A2AA890FB00D2CE2C /* Card.swift in Sources */,
+				A04BCE542AA86C8B00D2CE2C /* CreditCardDetail.swift in Sources */,
 				A01F555E2AA7D198003CCB6D /* ContentView.swift in Sources */,
+				A04BCE522AA85DB700D2CE2C /* ShortcutButton.swift in Sources */,
+				A04BCE5E2AAA8CC300D2CE2C /* HomeView.swift in Sources */,
+				A04BCE462AA84B9900D2CE2C /* Header.swift in Sources */,
+				A04BCE5C2AAA7F5300D2CE2C /* CustomTabBar.swift in Sources */,
+				A04BCE482AA84C7700D2CE2C /* Balance.swift in Sources */,
 				A01F555C2AA7D198003CCB6D /* itau_cloneApp.swift in Sources */,
+				A04BCE4B2AA84DDD00D2CE2C /* CurrencyFormatter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +415,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A04BCE4C2AA8500200D2CE2C /* XCRemoteSwiftPackageReference "SkeletonUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CSolanaM/SkeletonUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A04BCE4D2AA8500200D2CE2C /* SkeletonUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A04BCE4C2AA8500200D2CE2C /* XCRemoteSwiftPackageReference "SkeletonUI" */;
+			productName = SkeletonUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A01F55502AA7D197003CCB6D /* Project object */;
 }

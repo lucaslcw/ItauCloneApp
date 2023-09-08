@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct itau_cloneApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+struct itau_cloneApp: App {  
+  var body: some Scene {
+    WindowGroup {
+      ContentView()
     }
+  }
 }
